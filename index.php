@@ -5,19 +5,19 @@ ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_report
 /* ************************************
     START OF EDIT SECTION
 ************************************ */
-$server = "localhost";
+/* $server = "localhost";
 $username = "rs_user";
 $password = "99kt001cd";
 $dbname = "rs_db";
 $count = 4;
 $maxNicknameLength = 15;
-$ignoreGroupIDs = ["3057", "3299"];
+$ignoreGroupIDs = ["3057", "3299"]; */
 
-$query_name = "ujbannerkep";
-$query_password = "02oxweZe"; 
-$query_ip = "ts3szerver.hu";
+$query_name = "ts3banner";
+$query_password = "rsfR4CZb"; 
+$query_ip = "ts.hayn.me";
 $query_port = "10011";
-$query_server_port = "3062";
+$query_server_port = "9987";
 
 $imageDir = "./image/";
 $fontDir = './font/';
@@ -40,8 +40,8 @@ $ts3Placeholders = [
     //"%rank1%, %rankX%
 ];
 
-$adminGroups = ["3050", "3324"];
-$supportGroups = ["3045", "3269"];
+$adminGroups = ["9"];
+$supportGroups = ["9"];
 
 $config = array(
     0 => array(
